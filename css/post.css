@@ -1,0 +1,15 @@
+main {
+    margin-top: 2rem;
+}
+
+.post-image {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    margin-bottom: 20px; /* Espacio entre la imagen y el contenido */
+}
+
+.btn-container {
+    text-align: center; /* Centrar el contenido dentro del contenedor */
+    margin-top: 20px; /* Espacio superior para el botón */
+}
