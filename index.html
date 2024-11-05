@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+      <!-- Compiled and minified CSS -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+      <link rel="stylesheet" href="/css/styles.css">
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+    <header></header>
+    <main>
+        <div class="container">
+            <div class="row header center-align">
+                <h1>Mi Blog</h1>
+                <p>Bienvenido a mi espacio personal de escritura</p>
+            </div>
+    
+            <!-- Último artículo -->
+            <div class="row">
+                <div class="col s12 m8 offset-m2">
+                    <div class="blog-post">
+                        <h2>Último artículo</h2>
+                        <p id="latest-post-content" class="flow-text">Cargando...</p>
+                        <a id="latest-post-link" class="waves-effect waves-light btn">
+                            Leer más<i class="material-icons right">arrow_forward</i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Lista de artículos -->
+            <div class="row" id="articles">
+                <div class="col s12 m4">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="https://via.placeholder.com/300x200">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title">Artículo 1</span>
+                            <p>Breve descripción del artículo 1.</p>
+                            <a href="#">Leer más</a>
+                        </div>
+                    </div>
+                </div>
+            <div class="row center-align">
+                <a class="waves-effect waves-light btn-large">Ver todos los artículos<i class="material-icons right">library_books</i></a>
+            </div>
+        </div>
+    </main>
+    <footer class="page-footer deep-orange lighten-1">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <h5 class="white-text">Nuestros sitios</h5>
+                    <p class="grey-text text-lighten-4">Aquí puedes organizar el contenido de tu footer utilizando filas y columnas.</p>
+                    <div>
+                        <!-- Iconos de redes sociales usando Materialize -->
+                        <a href="https://www.instagram.com" target="_blank" class="grey-text text-lighten-3">
+                            <i class="material-icons">photo_camera</i> Instagram
+                        </a>
+                        <a href="https://www.linkedin.com" target="_blank" class="grey-text text-lighten-3" style="margin-left: 15px;">
+                            <i class="material-icons">business_center</i> LinkedIn
+                        </a>
+                        <a href="https://www.facebook.com" target="_blank" class="grey-text text-lighten-3" style="margin-left: 15px;">
+                            <i class="material-icons">thumb_up</i> Facebook
+                        </a>
+                        <a href="https://www.twitter.com" target="_blank" class="grey-text text-lighten-3" style="margin-left: 15px;">
+                            <i class="material-icons">public</i> Twitter
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container" style="text-align: center;">
+                © Copyright todos los derechos reservados.
+            </div>
+        </div>
+    </footer>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="/js/app.js"></script>
+</body>
+</html>
