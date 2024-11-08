@@ -1,8 +1,44 @@
+.nav-wrapper { /* Agrega elementos flex que Materialize no trabaja y un nuevo color */
+ 
+    display: flex;
+    align-items: safe;
+    background-color: #FF7F50;
+
+}
+
+.imagen-custom { /* Ajusta los valores de la imágen de la barra de navegación */
+
+    margin: 0.5%;
+    border-radius: 10px;
+    border: 2px solid black;
+
+}
+
+.nav-links li a:hover { /* Añade un subrayado además del sombreado predeterminado */
+
+    text-decoration-line: underline;
+
+}
+
 .header {
     padding: 40px 0;
     background-color: #26a69a;
     color: white;
 }
+
+@media (max-width: 992px) { /* Ajusta este tamaño si es necesario */
+    .nav-wrapper {
+        justify-content: center;
+    }
+
+    .nav-links li a:hover { /* Quita un subrayado en tamaño mediano */
+
+        text-decoration-line: none;
+    
+    }
+
+}
+
 .blog-post {
     margin-top: 20px;
     margin-bottom: 20px;
